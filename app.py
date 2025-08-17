@@ -24,7 +24,4 @@ def calculate():
         result = "ስህተት!"
         explanation = f"የተሳሳተ የሂሳብ ጥያቄ። እባክዎ ትክክለኛ የሂሳብ ቀመር ያስገቡ።"
 
-    return render_template('dashboard.html', result=result, explanation=explanation)
-
-if __name__ == '__main__':
-    app.run(debug=False)
+    return render_template'dashboard.html', result=res
